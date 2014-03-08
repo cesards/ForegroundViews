@@ -37,20 +37,20 @@ where custom attributes can be:
 * __foreground__
 Defines the drawable to draw over the content. This can be used as an overlay.
 
-Just add: ```custom:foreground="@drawable/your_foreground"```
+    Just add: ```custom:foreground="@drawable/your_foreground"```
 
 * __foregroundInsidePadding__
 Defines whether the foreground drawable should be drawn inside the padding.
 This property is false by default except if your background is a NinePatch Drawable.
 
-Just add: ```custom:foregroundInsidePadding="true"```
+    Just add: ```custom:foregroundInsidePadding="true"```
 
 * __backgroundAsForeground__
 Retrieve the default background and set it as the foreground. Thanks to this, you can get the
 default background selector of your theme and set it as your foreground selector if you want.
 This property is false  by default.
 
-Just add: ```custom:foregroundInsidePadding="true"```
+    Just add: ```custom:foregroundInsidePadding="true"```
 
 
 Download
