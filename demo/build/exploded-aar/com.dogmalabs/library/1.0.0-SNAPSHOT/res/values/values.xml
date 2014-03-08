@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/cesar/workspace_android/DigitalYou/ForegroundViews/library/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ForegroundLayout">
+
+        <!--
+         Defines the drawable to draw over the content. This can be used as an overlay.
+             The foreground drawable participates in the padding of the content if the gravity
+             is set to fill.
+        -->
+        <attr name="foreground" format="reference|color" />
+        <!--
+         Defines the gravity to apply to the foreground drawable. The gravity defaults
+         to fill.
+        -->
+        <attr name="foregroundGravity">
+
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!--
+           Additional option that can be set to have the top and/or bottom edges of
+           the child clipped to its container's bounds.
+           The clip will be based on the vertical gravity: a top gravity will clip the bottom
+           edge, a bottom gravity will clip the top edge, and neither will clip both edges.
+            -->
+            <flag name="clip_vertical" value="0x80" />
+            <!--
+           Additional option that can be set to have the left and/or right edges of
+           the child clipped to its container's bounds.
+           The clip will be based on the horizontal gravity: a left gravity will clip the right
+           edge, a right gravity will clip the left edge, and neither will clip both edges.
+            -->
+            <flag name="clip_horizontal" value="0x08" />
+        </attr>
+        <!--
+         Defines whether the foreground drawable should be drawn inside the padding.
+             This property is turned on by default.
+        -->
+        <attr name="foregroundInsidePadding" format="boolean" />
+
+        <!--
+     Extra feature: Retrieve the default background and set it as the foreground. You can get the default
+     background selector of your theme and set it as your foreground selector if you want.
+        -->
+        <attr name="backgroundAsForeground" format="boolean" />
+    </declare-styleable>
+
+</resources>

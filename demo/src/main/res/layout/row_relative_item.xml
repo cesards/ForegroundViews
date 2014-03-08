@@ -1,0 +1,18 @@
+<com.dogmalabs.foregroundviews.FRelativeLayout
+    android:id="@+id/linears"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/bg_card"
+    custom:foreground="@drawable/fg_card">
+
+  <TextView
+      android:id="@android:id/text1"
+      style="@android:style/TextAppearance.Large"
+      android:layout_width="match_parent"
+      android:layout_height="?android:attr/actionBarSize"
+      android:gravity="center"/>
+
+</com.dogmalabs.foregroundviews.FRelativeLayout>

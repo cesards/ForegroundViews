@@ -1,0 +1,15 @@
+<ListView
+    android:id="@android:id/list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:divider="@null"
+    android:dividerHeight="8dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp"
+    android:clipToPadding="true"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp"
+    android:scrollbarStyle="outsideOverlay"/>
+<!-- From: file:/Users/cesar/workspace_android/DigitalYou/ForegroundViews/demo/src/main/res/layout/list_card.xml -->
