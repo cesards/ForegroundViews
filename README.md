@@ -9,7 +9,8 @@ This library is developed based on some other good but not completed approaches 
 ### Sources
 * [FRelativeLayout][1] made by [Shaka Huang][2]
 * [Antonie Merle][3] [post][4] about how custom Foreground Views should work
-* [Chris Banes][5] [post][6] that explains which possibilities we have to get the Foreground Approach on Android
+* [Chris Banes][5] [post][6] that explains which possibilities we have to get the Foreground
+ Approach on Android
 * [FrameLayout source code][7]
 
 Screenshots
@@ -17,7 +18,8 @@ Screenshots
 
 Usage
 -----
-You just have to use whatever FView like FrameLayout; just set the android:foreground attribute as shown below:
+You just have to use whatever FView like FrameLayout; just set the android:foreground attribute
+as shown below:
 ```
 <com.dogmalabs.foregroundviews.FView
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -31,22 +33,21 @@ You just have to use whatever FView like FrameLayout; just set the android:foreg
 </com.dogmalabs.foregroundviews.FView>
 ```
 where custom attributes can be:
-```
-__foreground__
-```
+
+* __foreground__
 Defines the drawable to draw over the content. This can be used as an overlay.
+Just add: ```custom:foreground="@drawable/your_foreground"```
 
-```
-__foregroundInsidePadding__
-``
-Defines whether the foreground drawable should be drawn inside the padding. This property is turned false by default except if your background is a NinePatch Drawable.
+* __foregroundInsidePadding__
+Defines whether the foreground drawable should be drawn inside the padding.
+This property is false by default except if your background is a NinePatch Drawable.
+Just add: ```custom:foregroundInsidePadding="true"```
 
-```
-__backgroundAsForeground__
-```
-Retrieve the default background and set it as the foreground. Thanks to this, you can get the default background selector of your theme and set it as your foreground selector if you want.
-
-
+* __backgroundAsForeground__
+Retrieve the default background and set it as the foreground. Thanks to this, you can get the
+default background selector of your theme and set it as your foreground selector if you want.
+This property is false  by default.
+Just add: ```custom:foregroundInsidePadding="true"```
 
 
 Download
