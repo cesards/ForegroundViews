@@ -3,7 +3,6 @@ ForegroundViews
 Small library that provides Foreground View functionality to most used Android Views with foreground.
 If you want support to new View, add an issue :-)
 
-<h6> Sources </h6>
 This library is developed based on some other good but not completed approaches of Foreground Views:
 
 [FRelativeLayout][1] made by [Shaka Huang][2].
@@ -74,10 +73,10 @@ License
     limitations under the License.
 
 
-[1] https://gist.github.com/shakalaca/6199283
-[2] https://github.com/shakalaca
-[3] https://github.com/castorflex
-[4] http://antoine-merle.com/blog/2013/07/17/adding-a-foreground-selector-to-a-view/
-[5] https://github.com/chrisbanes
-[6] https://plus.google.com/+AndroidDevelopers/posts/aHPVDtr6mcp
-[7] https://github.com/android/platform_frameworks_base/blob/master/core/java/android/widget/FrameLayout.java
+[1]: https://gist.github.com/shakalaca/6199283
+[2]: https://github.com/shakalaca
+[3]: https://github.com/castorflex
+[4]: http://antoine-merle.com/blog/2013/07/17/adding-a-foreground-selector-to-a-view/
+[5]: https://github.com/chrisbanes
+[6]: https://plus.google.com/+AndroidDevelopers/posts/aHPVDtr6mcp
+[7]: https://github.com/android/platform_frameworks_base/blob/master/core/java/android/widget/FrameLayout.java
