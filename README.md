@@ -6,10 +6,10 @@ If you want support to new View, add an issue :-)
 <h6> Sources </h6>
 This library is developed based on some other good but not completed approaches of Foreground Views:
 
-* [FRelativeLayout][1] made by [Shaka Huang][2].
-* [Antonie Merle][3] [post][4] about how custom Foreground Views should work.
-* [Chris Banes][5] [post][6] that explains which possibilities we have to get the Foreground Approach on Android
-* [FrameLayout source code] [7]
+[FRelativeLayout][1] made by [Shaka Huang][2].
+[Antonie Merle][3] [post][4] about how custom Foreground Views should work.
+[Chris Banes][5] [post][6] that explains which possibilities we have to get the Foreground Approach on Android
+[FrameLayout source code][7]
 
 Screenshots
 -----------
