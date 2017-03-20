@@ -21,7 +21,7 @@ Usage
 You just have to use whatever FView like FrameLayout; just set the android:foreground attribute
 as shown below:
 ```
-<com.dogmalabs.foregroundviews.ForegroundView
+<com.cesards.android.foregroundviews.ForegroundView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -30,7 +30,7 @@ as shown below:
 
     ... other views ...
 
-</com.dogmalabs.foregroundviews.FView>
+</com.cesards.android.foregroundviews.FView>
 ```
 where custom attributes can be:
 
